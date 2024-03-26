@@ -1,0 +1,94 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+.logo{
+	width: 10%;
+	height: 10%;
+	
+}
+
+.navigation{
+	width: 100%;
+	
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #a529ff;
+
+
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding:10px 20px;}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color: #011721;
+	transition: .3s;
+}
+
+button{
+	border: none;
+	backgroun: #;
+	padding: 12px 30px;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold ;
+	font-size: 15px;
+	transition: .3s;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: auto 1fr auto;  
+    grid-template-columns: 20% 1fr 20%;
+    min-height: 100vh;
+    gap: 20px;}
+
+.sites{
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.card{
+	 display: flex;
+     flex-wrap: nowrap;
+     align-content: center;
+     justify-content: space-around;
+
+	width: 100px;
+	height: 200px;
+	margin:10px;
+	margin-top: 10px;
+}
+
+.card a{
+	text-decoration: none;
+}
+.card a:hover{
+	color: #011721;
+	transition: .3s;
+}
+footer{
+    background-color:#a529ff;
+    color: white;
+    padding: 10px;
+   text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;

@@ -1,0 +1,41 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+#Layer_1{
+
+		width: 90%;
+		margin-left: 5%;
+	
+	}
+
+
+.container{
+display: flex;
+justify-content: center;
+}
+
+#box{
+	width: 5em;
+	height: 2em;
+	font-size: 4em;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 15px;
+	
+}
+
+.box{
+background-color: white;
+
+}
+
+.box:hover{
+		opacity: 0.5;
+		fill: green;
+		}
+.box:active{
+		fill: red;
+		opacity:0.5;
+		}
