@@ -1,0 +1,126 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+
+.logo{
+	width: 10%;
+	height: 10%;
+	
+}
+
+.navigation{
+	width: 100%;
+	
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 5px;
+	padding-inline: 0;
+	background-color: #a529ff;
+
+
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding:10px 10px;}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color: #011721;
+	transition: .3s;
+}
+
+button{
+	border: none;
+	background-color: #011721;
+	padding: 12px 20px;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold ;
+	font-size: 15px;
+	transition: .3s;
+}
+
+#button{
+	text-decoration: none;
+	color: white;
+}
+
+#gif{
+	border-radius: 50px;
+}
+#container{
+
+	display: flex;
+	justify-content: center; 
+	margin-right: 20px; 
+	padding-inline: 1.5rem;
+
+	gap: 20px;
+}
+#bio{
+	text-align: center;
+	margin-block: 10px;
+	padding-top: 5%;
+	padding-inline: 10%;
+	
+}
+
+
+.card{
+    display: grid;
+    grid-template-rows: auto 1fr auto;  
+    grid-template-columns: 20% 1fr 20%;
+    min-height: 100vh;
+    gap: 20px;
+	padding-top: 50px}
+
+
+.sites{
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.card{
+	 display: flex;
+     flex-wrap: nowrap;
+     align-content: center;
+     justify-content: space-around;
+
+	width: 100px;
+	height: 200px;
+
+	margin:10px;
+	margin-top: 10px;
+}
+
+.card a{
+	text-decoration: none;
+}
+.card a:hover{
+	color: #011721;
+	transition: .3s;
+}
+footer{
+    background-color:#a529ff;
+    color: white;
+    padding: 10px;
+   text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
